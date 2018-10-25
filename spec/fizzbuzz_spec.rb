@@ -16,3 +16,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(7)).to eq 7
   end
 end
+
+describe 'fizzbuzz' do
+  it 'gives 15 expects "fizzbuzz"' do
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
+  end
+end
